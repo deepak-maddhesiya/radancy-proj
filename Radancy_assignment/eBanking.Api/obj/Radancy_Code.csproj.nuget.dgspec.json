@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Demo Projects\\Radancy_assignment\\eBanking.Domain\\eBanking.Domain.csproj": {}
+    "C:\\Demo Projects\\Radancy_assignment\\Radancy_Code\\Radancy_Code.csproj": {}
   },
   "projects": {
-    "C:\\Demo Projects\\Radancy_assignment\\eBanking.Domain\\eBanking.Domain.csproj": {
+    "C:\\Demo Projects\\Radancy_assignment\\Radancy_Code\\Radancy_Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Demo Projects\\Radancy_assignment\\eBanking.Domain\\eBanking.Domain.csproj",
-        "projectName": "eBanking.Domain",
-        "projectPath": "C:\\Demo Projects\\Radancy_assignment\\eBanking.Domain\\eBanking.Domain.csproj",
+        "projectUniqueName": "C:\\Demo Projects\\Radancy_assignment\\Radancy_Code\\Radancy_Code.csproj",
+        "projectName": "Radancy_Code",
+        "projectPath": "C:\\Demo Projects\\Radancy_assignment\\Radancy_Code\\Radancy_Code.csproj",
         "packagesPath": "C:\\Users\\Deepa\\.nuget\\packages\\",
-        "outputPath": "C:\\Demo Projects\\Radancy_assignment\\eBanking.Domain\\obj\\",
+        "outputPath": "C:\\Demo Projects\\Radancy_assignment\\Radancy_Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +40,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,6 +58,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

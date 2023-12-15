@@ -2095,7 +2095,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.0",
           "eBanking.Domain": "1.0.0"
         },
         "compile": {
@@ -2108,9 +2107,6 @@
       "eBanking.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.0"
-        },
         "compile": {
           "bin/placeholder/eBanking.Domain.dll": {}
         },
@@ -2122,7 +2118,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.0",
           "eBanking.Domain": "1.0.0"
         },
         "compile": {
